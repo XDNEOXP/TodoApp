@@ -1,0 +1,36 @@
+.AddTastForm{
+    width: 100%;
+}
+
+.AddTastForm form{
+    display: flex;
+}
+
+.AddTastForm input{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    outline: none;
+    transition-duration: 500ms;
+}
+
+.AddTastForm input:focus{
+    border-color: #16a085;
+}
+
+.AddTastForm button{
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid #eee;
+    background-color: #eee;
+    cursor: pointer;
+    transition-duration: 500ms;
+}
+
+.AddTastForm button:hover{
+    border-color: #16a085;
+    background-color: #16a085;
+    color: #fff;
+}
